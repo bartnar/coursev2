@@ -1,0 +1,90 @@
+.badge {
+    position: absolute;
+    top: -11px;
+    right: 4px;
+    background-color: #EBEBEB;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    width: 25px;
+    height: 25px;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 3px;
+    border: 2px solid white;
+    color: #000;
+    font-weight: 600;
+}
+
+.inline {
+    position: static;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.text {
+    width: auto;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.warning,
+.alert,
+.success,
+.info {
+    color: #FFF;
+}
+
+.warning {
+    background-color: red;
+}
+
+.alert {
+    background-color: #EDE821;
+}
+
+.success {
+    background-color: #08C008;
+}
+
+.info {
+    background-color: #23C9FF;
+}
+
+.outer,
+.outer.warning,
+.outer.alert,
+.outer.success,
+.outer.info {
+    background-color: #FFF;
+}
+
+.outer {
+    color: grey;
+    border: 2px solid #EBEBEB;
+}
+
+.outer.warning {
+    color: #D43728;
+    border-color: #D43728;
+}
+
+.outer.alert {
+    color: #EDE821;
+    border-color: #EDE821;
+}
+
+.outer.success {
+    color: #08C008;
+    border-color: #08C008;
+}
+
+.outer.info {
+    color: #23C9FF;
+    border-color: #23C9FF;
+}
