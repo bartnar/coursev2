@@ -1,9 +1,9 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
-import './ListItem.css';
+import "./ListItem.css";
 import Badge from "../Badge/Badge";
-import Icon from "../Icon/Icon";
+
 
 interface ListItemInterface {
     title?: string | React.ReactChildren | JSX.Element | JSX.Element[],
@@ -29,7 +29,7 @@ export default function ListItem({
         <li>
             <Link to={`/${{to} || ''}`} className={clickable ? 'list-item-clickable' : 'list-item'}>
                 <div className="list-item-icon-wrapper">
-                    <Icon/>
+                    <span className="list-item-icon">{icon}</span>
                     {badge}
                 </div>
                 <div className="list-item-text-wrapper">
