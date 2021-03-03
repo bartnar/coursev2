@@ -2,7 +2,6 @@ import React from "react";
 import {Link} from "react-router-dom";
 
 import "./ListItem.css";
-import Badge from "../Badge/Badge";
 
 
 interface ListItemInterface {
@@ -12,7 +11,7 @@ interface ListItemInterface {
     action?: string | React.ReactChildren | JSX.Element | JSX.Element[],
     to?: string,
     clickable?: boolean,
-    badge?: JSX.Element,
+    badge?: JSX.Element | string,
 }
 
 export default function ListItem({
@@ -22,12 +21,12 @@ export default function ListItem({
                                      action = "",
                                      clickable = false,
                                      to = "",
-                                     badge = <Badge value=""/>,
+                                     badge = '',
                                      ...attrs
                                  }: ListItemInterface) {
     return (
         <li>
-            <Link to={`/${{to} || ''}`} className={clickable ? 'list-item-clickable' : 'list-item'}>
+            <Link to={`/${to || ''}`} className={clickable ? 'list-item-clickable' : 'list-item'}>
                 <div className="list-item-icon-wrapper">
                     <span className="list-item-icon">{icon}</span>
                     {badge}

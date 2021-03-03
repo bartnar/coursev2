@@ -8,7 +8,7 @@ interface ImageProps {
     width?: string,
     height?: string,
     circle?: boolean,
-    className: string
+    className?: string
 }
 
 
