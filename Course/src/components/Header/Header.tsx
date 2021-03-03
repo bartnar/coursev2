@@ -3,6 +3,8 @@ import ListItem from "../ListItem/ListItem";
 import Icon from "../Icon/Icon";
 import "./Header.css";
 import Image from "../Image/Image";
+import Nav from "../Nav/Nav";
+import Badge from "../Badge/Badge";
 
 export default function Header() {
     return (
@@ -17,8 +19,14 @@ export default function Header() {
                         <option value="whatever">Whatever</option>
                     </select>
                 </div>
-
-                {/*navigation*/}
+                <Nav>
+                    <ListItem icon={<Icon name="chalkboard-teacher" size={1.5}/>} title="Progress" clickable/>
+                    <ListItem icon={<Icon name="bookmark" size={1.5}/>} title="What's New" clickable
+                              badge={<Badge value={1} circle warning/>}/>
+                    <ListItem icon={<Icon name="signal" size={1.5}/>} title="Stats" clickable/>
+                    <ListItem icon={<Icon name="comments" size={1.5}/>} title="Community" clickable
+                              badge={<Badge value={3} circle warning/>}/>
+                </Nav>
                 <div className="header-right">
                     <ListItem icon={<Icon name="angle-double-right"/>} title="30%"/>
                     <ListItem icon={<Image circle height="35" width="35"/>} title={<Icon name="chevron-down"/>}/>
