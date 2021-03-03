@@ -1,0 +1,22 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu li {
+    padding: 20px 15px;
+}
+
+.menu li:hover {
+    background: linear-gradient(90deg, rgba(0, 255, 184, 0.12648809523809523) 0%, rgba(9, 121, 60, 0.020045518207282953) 100%);
+    border-radius: 12px 0 0 12px;
+}
+
+.menu .list-item-title {
+    font-size: 16px;
+}
+
+.menu-left li:nth-child(4) {
+    border-top: 1px solid var(--color-paleGray);
+    border-bottom: 1px solid var(--color-paleGray);
+}

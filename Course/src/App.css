@@ -29,11 +29,11 @@
     grid-template-columns: 1fr 4fr 2fr;
     grid-template-rows: 1fr;
     grid-template-areas:
-    "menu-left-wrapper comments aside";
+    "menu comments aside";
 }
 
-.menu-left-wrapper {
-    grid-area: menu-left;
+.menu-wrapper {
+    grid-area: menu;
     width: 250px;
     margin-top: 50px;
 }
