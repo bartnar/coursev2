@@ -31,6 +31,7 @@ li {
 }
 
 .list-item-title-secondary {
+    display: block;
     margin: 0 10px;
     color: var(--color-paleGray);
     font-size: 14px;

@@ -18,6 +18,10 @@
     margin-left: auto;
 }
 
+.header-right li:first-child {
+    margin: 0 35px 0 0;
+}
+
 .header-left, .header-right {
     display: flex;
     align-items: center;

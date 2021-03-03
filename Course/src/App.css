@@ -34,7 +34,7 @@
 
 .menu-wrapper {
     grid-area: menu;
-    width: 250px;
+    width: 280px;
     margin-top: 30px;
 }
 
@@ -46,6 +46,7 @@
 .aside {
     grid-area: aside;
     margin-top: 20px;
+    width: 340px;
     background-color: white;
     border-radius: 15px;
     padding: 40px 20px;

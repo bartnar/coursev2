@@ -9,6 +9,7 @@
     text-transform: uppercase;
     display: inline-block;
     text-decoration: none;
+    width: 100%;
 }
 
 .btn:hover {
@@ -24,4 +25,13 @@
     background-color: #23C9FF;
     border: 1px solid #5EB2F2;
     box-shadow: 0px 0 2px 0px #C0C0C0;
+}
+
+.comment {
+    color: var(--color-green);
+    background-color: rgb(245, 243, 238);
+}
+
+.comment:hover {
+    background-color: rgb(245, 240, 226);
 }
