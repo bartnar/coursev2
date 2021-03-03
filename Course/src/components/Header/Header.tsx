@@ -29,7 +29,7 @@ export default function Header() {
                 </Nav>
                 <div className="header-right">
                     <ListItem icon={<Icon name="angle-double-right"/>} title="30%"/>
-                    <ListItem icon={<Image circle height="35" width="35"/>} title={<Icon name="chevron-down"/>}/>
+                    <ListItem icon={<Image circle height="45" width="45"/>} title={<Icon name="chevron-down"/>}/>
                 </div>
 
             </div>
