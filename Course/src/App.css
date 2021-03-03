@@ -35,7 +35,7 @@
 .menu-wrapper {
     grid-area: menu;
     width: 250px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .comments-section {

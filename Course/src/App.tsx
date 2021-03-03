@@ -1,14 +1,14 @@
 import React from 'react';
 import "./App.css";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Header from "./components/Header/Header";
+import Wrapper from "./components/Wrapper/Wrapper";
 
 function App() {
     return (
         <div className="App">
             <Router>
                 <Switch>
-                    <Route exact path='/' component={Header}/>
+                    <Route exact path='/' component={Wrapper}/>
                 </Switch>
             </Router>
         </div>
