@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Header/Header";
 import Menu from "../Menu/Menu";
+import Aside from "../Aside/Aside";
 
 export default function Wrapper(props: any) {
     return (
@@ -11,6 +12,7 @@ export default function Wrapper(props: any) {
                     props.children
                 }
                 <Menu/>
+                <Aside/>
             </div>
         </div>
     )

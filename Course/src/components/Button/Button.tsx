@@ -6,6 +6,7 @@ interface ButtonProps {
     children?: React.ReactChildren | JSX.Element | string,
     onClick?: () => void,
     className?: string,
+    icon?: string | React.ReactChildren | JSX.Element,
     disabled?: boolean,
     active?: boolean,
     href?: string
@@ -39,6 +40,7 @@ export default function Button({
             }}
             {...attrs}
         >
+            <span className="list-item-icon">{attrs.icon}</span>
             {children}
         </Tag>
     );
