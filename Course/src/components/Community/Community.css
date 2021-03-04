@@ -1,0 +1,16 @@
+.comments-section .list-item-text-wrapper {
+    display: flex;
+}
+
+.comments-section .list-item-title:first-child {
+    font-size: 24px;
+    color: var(--color-black);
+}
+
+.comments-section .list-item-action {
+    display: flex;
+}
+
+.comments-section .list-item-action .list-item-title-secondary {
+    font-size: 12px;
+}

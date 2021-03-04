@@ -20,11 +20,12 @@ export default function Header() {
                     </select>
                 </div>
                 <Nav>
-                    <ListItem icon={<Icon name="chalkboard-teacher" size={1.5}/>} title="Progress" clickable/>
-                    <ListItem icon={<Icon name="bookmark" size={1.5}/>} title="What's New" clickable
+                    <ListItem to="progress" icon={<Icon name="chalkboard-teacher" size={1.5}/>} title="Progress"
+                              clickable/>
+                    <ListItem to="whatsnew" icon={<Icon name="bookmark" size={1.5}/>} title="What's New" clickable
                               badge={<Badge value={1} circle warning/>}/>
-                    <ListItem icon={<Icon name="signal" size={1.5}/>} title="Stats" clickable/>
-                    <ListItem icon={<Icon name="comments" size={1.5}/>} title="Community" clickable
+                    <ListItem to="stats" icon={<Icon name="signal" size={1.5}/>} title="Stats" clickable/>
+                    <ListItem to="community" icon={<Icon name="comments" size={1.5}/>} title="Community" clickable
                               badge={<Badge value={3} circle warning/>}/>
                 </Nav>
                 <div className="header-right">
