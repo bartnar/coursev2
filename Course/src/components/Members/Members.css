@@ -1,0 +1,29 @@
+.members {
+    margin-top: 60px;
+}
+
+.members-people-wrapper {
+    padding: 0 15px;
+}
+
+.members > li .list-item-action {
+    color: var(--color-gray);
+}
+
+.members li {
+    margin: 40px 0;
+
+}
+
+.members .list-item-title {
+    font-size: 16px;
+}
+
+.members-people-wrapper li .list-item-action {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.members-people-wrapper li .list-item-action:hover {
+    background: linear-gradient(90deg, rgba(0, 255, 184, 0.12648809523809523) 0%, rgba(9, 121, 60, 0.020045518207282953) 100%);
+}

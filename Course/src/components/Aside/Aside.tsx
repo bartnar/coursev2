@@ -9,29 +9,29 @@ const asideComments = [
         author: "Ron Bush",
         state: "5 steps ahead of you",
         comment: {
-            text: "Happy to help if you feel stuck or need a hint. I'll make sure to reply back within 24 hrs.",
+            text: "Happy to help if you feel stuck or need a hint. I'll make sure to reply back within 24 hrs. NOTICE ME JEAN SENPAI PLEASE",
             buttonTitle: "Reach out to Ron"
         }
     },
     {
         author: "Ron Куст",
-        state: "5 steps ahead of you",
+        state: "5 шагов ahead of you",
         comment: {
             text: "Happy to help if you feel stuck or need a hint. I'll make sure to reply back within 24 hrs.",
             buttonTitle: "Reach out to Ron"
         }
     },
     {
-        author: "Ron Bush",
-        state: "5 steps ahead of you",
+        author: "Рон Bush",
+        state: "5 steps ahead of тебя",
         comment: {
             text: "Happy to help if you feel stuck or need a hint. I'll make sure to reply back within 24 hrs.",
             buttonTitle: "Reach out to Ron"
         }
     },
     {
-        author: "Ron Bush",
-        state: "5 steps ahead of you",
+        author: "Рон Куст",
+        state: "5 шагов впереди of you",
         comment: {
             text: "Happy to help if you feel stuck or need a hint. I'll make sure to reply back within 24 hrs.",
             buttonTitle: "Reach out to Ron"
