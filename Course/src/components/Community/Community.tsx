@@ -2,6 +2,7 @@ import React from "react";
 import Wrapper from "../Wrapper/Wrapper";
 import ListItem from "../ListItem/ListItem";
 import "./Community.css";
+import Post from "../Post/Post";
 
 const titleActionData = ['RECENT', 'BY MILESTONE'];
 
@@ -14,7 +15,7 @@ export default function Community() {
                         <span className="list-item-title-secondary">{el}</span>
                     )
                 })}/>
-                Posts
+                <Post/>
             </div>
         </Wrapper>
     )

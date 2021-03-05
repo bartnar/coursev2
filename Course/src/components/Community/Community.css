@@ -14,3 +14,7 @@
 .comments-section .list-item-action .list-item-title-secondary {
     font-size: 12px;
 }
+
+.comments-section .list-item-action .list-item-title-secondary:first-child {
+    margin-right: 15px;
+}
