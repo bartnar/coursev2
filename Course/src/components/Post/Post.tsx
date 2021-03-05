@@ -4,6 +4,7 @@ import ListItem from "../ListItem/ListItem";
 import Image from "../Image/Image";
 import Icon from "../Icon/Icon";
 import Button from "../Button/Button";
+import Comments from "../Comments/Comments";
 
 const postData = [
     {
@@ -32,6 +33,24 @@ const postComments = [
         text: 'Gmail + Calendar',
         actions: ['Reply', 'Helpful', '2m']
     }
+];
+
+const postMessages = [
+    {
+        author: 'Lyo Mann',
+        text: 'Google calendar is very helpful',
+        actions: ['Reply', 'Helpful', '7m']
+    },
+    {
+        author: 'Fouad Shariff',
+        text: 'I use Trello for tasks',
+        actions: ['Reply', 'Helpful', '5m']
+    },
+    {
+        author: 'Kevin Kucera (Teacher)',
+        text: 'Gmail + Calendar',
+        actions: ['Reply', 'Helpful', '1m']
+    }
 ]
 
 export default function Post() {
@@ -51,6 +70,9 @@ export default function Post() {
                         <div className="post-buttons-wrapper">
                             <Button className="post-button" icon={<Icon name="thumbs-up"/>}>Like</Button>
                             <Button className="post-button" icon={<Icon name="comments"/>}>Comment</Button>
+                        </div>
+                        <div className="post-messages-wrapper">
+                            <Comments/>
                         </div>
                         <div className="post-reply">
                             <ListItem icon={<Image width="30" height="30" circle/>}/>

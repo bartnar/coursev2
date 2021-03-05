@@ -40,7 +40,7 @@
 
 .comments-section {
     grid-area: comments;
-    margin-top: 50px;
+    margin: 50px 0 50px 0;
 }
 
 .aside {
