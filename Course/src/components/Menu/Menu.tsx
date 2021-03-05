@@ -2,6 +2,7 @@ import React from "react";
 import "./Menu.css"
 import ListItem from "../ListItem/ListItem";
 import Icon from "../Icon/Icon";
+import Members from "../Members/Members";
 
 export default function Menu() {
     return (
@@ -20,6 +21,7 @@ export default function Menu() {
                               action="+1"/>
                     <ListItem clickable title="My Activity" icon={<Icon name="book" size={1.5}/>}/>
                 </div>
+                <Members/>
                 <ListItem clickable secondaryTitle="See All"/>
             </div>
         </div>
