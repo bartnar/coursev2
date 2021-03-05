@@ -3,6 +3,11 @@ li {
     list-style-type: none;
 }
 
+.list-item-text-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
 .list-item, .list-item-clickable {
     display: flex;
     text-decoration: none;
@@ -32,7 +37,6 @@ li {
 
 .list-item-title-secondary {
     display: block;
-    margin: 0 10px;
     color: var(--color-paleGray);
     font-size: 14px;
 }

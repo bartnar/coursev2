@@ -4,12 +4,10 @@
     background-color: #7CC6fE;
     border: none;
     color: #FFF;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
-    text-transform: uppercase;
     display: inline-block;
     text-decoration: none;
-    width: 100%;
 }
 
 .btn:hover {
@@ -30,6 +28,21 @@
 .comment {
     color: var(--color-green);
     background-color: rgb(245, 243, 238);
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.post-button {
+    background-color: var(--color-background);
+    color: var(--color-black);
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 0 10px 0 10px;
+    width: 100%;
+}
+
+.post-button:hover {
+    background-color: rgb(245, 240, 226);
 }
 
 .comment:hover {

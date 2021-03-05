@@ -40,12 +40,12 @@
 
 .comments-section {
     grid-area: comments;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .aside {
     grid-area: aside;
-    margin: 20px auto 0 auto;
+    margin: 20px auto;
     width: 340px;
     background-color: white;
     border-radius: 15px;
